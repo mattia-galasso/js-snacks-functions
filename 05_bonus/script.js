@@ -9,8 +9,8 @@ const userName = "Mario";
 const todayDate = new Date();
 let currentHour = todayDate.getHours();
 let outputMessage = "";
-console.log("todayDate: ", todayDate, typeof todayDate);
-console.log("currentHour: ", currentHour, typeof currentHour);
+console.log("todayDate: ", todayDate);
+console.log("currentHour: ", currentHour);
 
 // Dichiara la funzione qui.
 /**
