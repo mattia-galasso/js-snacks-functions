@@ -8,18 +8,18 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Giovanni", "Alessandra"];
  * @param {array} nameArray Array populated by Words
  * @returns {array} Array with initials
  */
-function isInitials(nameArray) {
-  const initials = [];
+function namesInitials(nameArray) {
+  const isInitials = [];
   for (let i = 0; i < nameArray.length; i++) {
     const currentName = nameArray[i];
     isNameInit = currentName[0];
-    initials.push(isNameInit);
+    isInitials.push(isNameInit);
   }
-  return initials;
+  return isInitials;
 }
 
 // Invoca la funzione qui e stampa il risultato in console
-const isNamesInitials = isInitials(names);
+const isNamesInitials = namesInitials(names);
 
 console.log(names);
 console.log(isNamesInitials);
